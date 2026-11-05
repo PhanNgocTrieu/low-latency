@@ -15,6 +15,7 @@ với một **portfolio GitHub** gồm các project có số liệu benchmark th
 README.md                 ← bạn đang đọc (lộ trình + checklist tiến độ)
 Makefile                  ← build tất cả project:  make  /  make run-01 ...
 docs/
+  00-concepts-map.md           Bản đồ khái niệm: tra cứu mọi thuật ngữ low latency
   01-cpp-performance.md        C++ hiện đại cho hiệu năng
   02-computer-architecture.md  Cache, branch prediction, TLB, NUMA, pipeline
   03-concurrency-lockfree.md   Atomics, memory ordering, lock-free queues
@@ -63,7 +64,7 @@ make test-03 run-03
 
 | Giai đoạn | Tuần | Chủ đề | Đọc | Làm |
 |---|---|---|---|---|
-| 0. Khởi động | 1–2 | Đo lường cơ bản, latency numbers | docs/05, docs/02 (phần 1) | Project 01 |
+| 0. Khởi động | 1–2 | Bản đồ khái niệm, đo lường cơ bản, latency numbers | docs/00, docs/05, docs/02 (phần 1) | Project 01 |
 | 1. Phần cứng & C++ | 3–6 | Cache, branch, data-oriented design, C++ zero-cost | docs/01, docs/02 | Mở rộng Project 01, đọc assembly trên godbolt |
 | 2. Concurrency | 7–10 | Atomics, memory model, lock-free | docs/03 | Project 02, Project 06 |
 | 3. Trading domain | 11–14 | Order book, matching, market data | docs/06 | Project 03, Project 04 |
